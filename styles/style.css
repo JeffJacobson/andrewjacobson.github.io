@@ -1,0 +1,71 @@
+@import url('./c64.css');
+
+:root {
+    /* font-family: 'Commodore-64', 'Cascadia Code', 'Courier New', Courier, monospace; */
+    font-family: 'Cascadia Code', 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: var(--c64-bg-color);
+    color: var(--c64-fg-color);
+    /* text-transform: uppercase; */
+    border-color: var(--c64-fg-color);
+    border-width: var(--c64-border-width);
+    border-style: solid;
+    text-align: center;
+}
+
+a {
+    color: var(--c64-fg-color);
+    text-decoration: underline;
+}
+
+table {
+    border-color: var(--c64-fg-color);
+    margin: 10px;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+table td {
+    border-color: var(--c64-fg-color);
+    border-style: solid;
+    padding: 1em;
+
+}
+
+table>tr>td {
+    border-style: solid;
+    border-color: var(--c64-bg-color);
+}
+
+h1 {
+    font-size: unset;
+    font-weight: unset;
+    text-align: center;
+}
+
+h1,
+tr {
+    text-align: center;
+}
+
+.credits {
+    text-align: center;
+}
+
+.temp-change {
+    font-size: 60px;
+}
+
+.annual-cumulative-time {
+    font-size: 20px;
+}
+
+.conservative-avg {
+    font-size: 15px;
+}
+
+.insufficient-data {
+    font-size: 35px;
+}

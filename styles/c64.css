@@ -1,0 +1,15 @@
+/* Declare C64 color variables */
+:root {
+    --c64-fg-color: #0088FF;
+    --c64-bg-color: #0000AA;
+}
+
+@font-face {
+    font-family: "CommodoreServer";
+    src: url('../fonts/CommodoreServer.ttf');
+}
+
+@font-face {
+    font-family: "Commodore-64";
+    src: url('../fonts/commodore_64/Commodore-64-v6.3.TTF');
+}
